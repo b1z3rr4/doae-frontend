@@ -5,7 +5,7 @@ export const Wrapper = styled.div`
   justify-content: center;
   align-items: center;
   width: 80%;
-  height: 20vh;
+  height: 15vh;
   margin: 1rem auto;
 `;
 
@@ -16,7 +16,7 @@ export const WrapperC = styled.div`
     align-items: center;
     width: 100%;
     height: 100%;
-    padding: 0.7rem;
+    padding: 20px 0;
     background-color: ${theme.colors.white};
     box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
     border-radius: 0.4rem;
@@ -25,8 +25,8 @@ export const WrapperC = styled.div`
 `;
 
 export const LogoWrapper = styled.div`
-  width: 100px;
-  height: 100px;
+  width: calc(100vw / 4);
+  height: calc(100vw / 4);
   border-radius: 50%;
   overflow: hidden;
 `;
